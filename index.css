@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+}
+header{
+    background-image: url(https://img.freepik.com/free-photo/beautiful-scenery-sea-cloudy-sky-beautiful-sunset-surrounded-by-greenery_181624-6339.jpg?t=st=1717648327~exp=1717651927~hmac=a74edb9c56f549e992d0d37db6f38c4a4bad2e663bcd878da0a57998ec0682f4&w=900);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+}
+ul{
+    float: right;
+    list-style: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+   font-size: 17px;
+}
+
+ul li{
+    display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  padding: 3px 20px;
+  border: 1px solid transparent;
+  transition:0.5 ease;
+
+ }
+
+
+
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+ul li.active a{
+    background-color: #fff;
+    color: black;
+}
+
+.logo img{
+    padding-left: 10px;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid #fdf6f6;
+}
+
+main{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.title{
+  position:absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title h1{
+     font-size: 70px;
+    color: black;
+}
+
+.buttons{
+    position:absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn{
+  border: 3px solid #220d0d;
+  padding: 5px 20px;
+  color: rgb(17, 11, 10);  
+  font-weight: bolder;
+  transition: 0.5 ease;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: black;
+}
+
+.sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+}
+
+.sub-menu ul{
+    position: absolute;
+}
+
+.main ul li:hover .sub-menu{
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin-top: 12px;
+    margin-left: -8px;
+}
+
+.main ul li:hover .sub-menu{
+    width: 75px;
+    padding: 5px;
+    border-bottom: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;
+    text-align: left;
+    border-radius: 0px;
+}
